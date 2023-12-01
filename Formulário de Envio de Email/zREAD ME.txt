@@ -1,0 +1,2 @@
+A notificação de "Email Enviado com Sucesso" demora um pouco para aparecer após clicar
+no botão enviar mensagem

@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif; /* Style para o corpo do index */
+}
+
+.form-container {
+   display: flex; 
+}
+
+.header {
+   background-color: rgb(15, 125, 184); /* Style para a faixa azul + logo */
+   text-align: left;
+}
+
+.message-box { /* Style do container com as informações para entrar em contato */
+   border: 1px solid #ccc;
+   padding: 20px;
+   align-items: center;
+   width: 40%;
+   margin: auto;
+}
+
+.message-box > h2{ /* Definindo a cor de "Mensagem" dentro do container */
+   color: rgb(15, 125, 184);
+}
+
+.nomeE{ /* Style para o "Nome:" que aparece a esquerda */
+   color: rgb(15, 125, 184);
+   padding: 50px;
+}
+
+.nomeE > h4{ /* Definindo a cor do nome "Matheus Perdigão" */
+   color: gray;
+}
+
+form {
+   display: grid;
+   gap: 10px;
+}
+
+label { /* Deixando em negrito o "Nome:" a esquerda */
+   font-weight: bold;
+   
+}
+
+input[type=text], input[type=email], textarea { /* Style para as box dentro do container */
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing:border-box ;
+}
+
+input[type="submit"] { /* Style do botão "Enviar" */
+   background-color: #4caf50;
+   padding: 14px 20px ;
+   margin: 8px 0;
+   border: none; 
+   border-radius: 4px;
+   color: white;
+   cursor: pointer;
+}
